@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+}
+
+.upper-container {
+    width: 100%;
+    height: 65%;
+    background-color: #FFCD9E;
+    display: flex;
+    padding: 2vw;
+}
+
+.lower-container {
+    width: 100%;
+    height: 35%;
+    background-color: #282828;
+    display: flex;
+    color: white;
+    padding: 63px 53px;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.right-container{
+    width: 50%;
+    padding: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.right-container h3{
+    font-size: 36px;
+}
+
+.right-container {
+    font-size: 20px;
+}
+
+.right-container h4{
+    font-size: 20px;
+    font-weight:800;
+}
+
+
+.spam-text{
+    color: white;
+    font-size: 10px;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+.input-container input{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.input-container button{
+    padding: 10px;
+    color: white;
+    background-color: #282828;
+    border-radius: 5px;
+}
+
+.left-container{
+    width: 50%;
+}
+
+.img-container{
+    width: 420px;
+}
+
+.img-container img{
+    width: 100%;
+}
+.ll-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.ll-container li{
+    list-style: none;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.linkedin-logo{
+    width: 25px;
+}
+.linkedin-logo img{
+    width: 100%;
+}
+.insta-logo{
+    width: 25px;
+}
+.insta-logo img{
+    width: 100%;
+}
+.email{
+    margin-top: 35px;
+}
+
